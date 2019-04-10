@@ -1,0 +1,80 @@
+
+/*
+PrinceXML calculates Bootstrap's ".66666667%" grid width literally, resulting in a 
+grid that is technically over 100%. Prince then drops the last column to a new row. 
+These styles override Bootstrap and set the appropriate grid elements to simply
+end in "...6%".
+*/
+.col-xs-11 {
+    width: 98.4%
+}
+.col-xs-11 {
+    width: 90.2%
+}
+.col-xs-10 {
+    width: 83%
+}
+.col-xs-9 {
+    width: 75%
+}
+.col-xs-8 {
+    width: 66.666666666666664%
+}
+.col-xs-7 {
+    width: 58.333333333333331%
+}
+.col-xs-6 {
+    width: 50%
+}
+.col-xs-5 {
+    width: 41.666666666666665%
+}
+.col-xs-4 {
+    width: 33.333333333333332%
+}
+.col-xs-3 {
+    width: 25%
+}
+.col-xs-2 {
+    width: 16.666666666666666%
+}
+.col-xs-1 {
+    width: 8.333333333333333%;
+}
+
+.col-xs-pull-11 {
+    right: 91.66666666%
+}
+.col-xs-pull-8 {
+    right: 66.66666666%
+}
+.col-xs-pull-5 {
+    right: 41.66666666%
+}
+.col-xs-pull-2 {
+    right: 16.66666666%
+}
+.col-xs-push-11 {
+    left: 91.66666666%
+}
+.col-xs-push-8 {
+    left: 66.66666666%
+}
+.col-xs-push-5 {
+    left: 41.66666666%
+}
+.col-xs-push-2 {
+    left: 16.66666666%
+}
+.col-xs-offset-11 {
+    margin-left: 91.66666666%
+}
+.col-xs-offset-8 {
+    margin-left: 66.66666666%
+}
+.col-xs-offset-5 {
+    margin-left: 41.66666666%
+}
+.col-xs-offset-2 {
+    margin-left: 16.66666666%
+}

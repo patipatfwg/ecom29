@@ -1,0 +1,260 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #337cb5;
+    /* font-family:CordiaUPC, sans-serif; */
+    /* font-size: small;
+    font-style: normal;
+    zoom: 1.5; */
+
+    /* font-size: 3.3mm;
+    line-height: 7.5mm; */
+
+    /* RAW */
+    font-size: 2.5mm !important;
+    line-height: 5mm !important;
+}
+
+.font-read{
+    font-size: 2.8mm !important;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.height-20{
+    height: 20%;
+}
+
+.height-80{
+    height: 80%;
+}
+
+.full-height{
+    height: 100%;
+}
+
+.half-height{
+    height: 50%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.black{
+    color: black;
+}
+
+.invoice-grey{
+    background: rgba(242, 242, 242, 1);
+}
+
+.border-all{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid; 
+}
+
+.border-top{
+    border-top-width: 1px;
+    border-top-color: black;
+    border-top-style: solid; 
+}
+
+.border-bottom{
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid; 
+}
+
+.border-left{
+    border-left-width: 1px;
+    border-left-color: black;
+    border-left-style: solid; 
+}
+
+.border-right{
+    border-right-width: 1px;
+    border-right-color: black;
+    border-right-style: solid; 
+}
+
+.invoice-header .copy-box {
+    display: table;
+    width: 21mm;
+    height: 11mm;
+    /* width: 32mm;
+    height: 17mm; */
+}
+
+.invoice-header .copy-box-middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.invoice-header .copy-box-inner{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.invoice-header .contract-us{
+    padding-top: 8mm;
+    /* padding-top: 12mm; */
+    line-height: normal;
+    /* font-size: 3.6mm; */
+
+    /* RAW */
+    font-size: 2.8mm !important;
+}
+
+.invoice-header .makro-logo{
+    padding-top: 6mm;
+    font-size: 14px;
+    /* padding-top: 9mm;
+    font-size: 4.2mm; */
+
+    /* RAW */
+    font-size: 3mm !important;
+}
+
+.invoice-header .sign-panel{
+    /* padding-top: 6mm; */
+    padding-top: 9mm;
+}
+
+.invoice-header .sign{
+    padding-top: 3mm;
+    /* padding-top: 4.5mm; */
+}
+
+.invoice-detail-summary .remark .condition-text{
+    font-size: 3mm;
+    /* RAW */
+    font-size: 2.2mm !important;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.break-word{
+    word-wrap: break-word;
+}
+
+.invoice-name{
+    position: relative;
+    width: 60mm;
+    right: 13mm;
+    /* width: 90mm;
+    right: 20mm; */
+}
+
+/* padding*/
+.pd-l-1{
+    padding-left: 1px !important;
+}
+.pd-r-1{
+    padding-right: 1px !important;
+}
+.detail-column-6{
+    padding-right: 1px !important;
+}
+.detail-column-8{
+    padding-right: 1px !important;
+}
+.half-width.fl.nopadding.text-right.black{
+    padding-right: 1px !important;
+}
+.detail-column-4.fl.full-height.border-right.text-right.black{
+    padding-right: 1px !important;
+}
+.tb-dispaly{
+   display: table; 
+}
+.va-middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*
+@media (min-width: 768px) { 
+    body{
+        font-size: 3.3mm !important;
+    }
+     .makro-logo{
+        font-size: 4.8mm !important;
+    }
+    .condition-text {
+         font-size: 3mm !important;
+    }
+}
+
+@media (min-width:  992px) { 
+    body{
+        font-size: 3.3mm !important;
+    }
+        .makro-logo{
+        font-size: 4.8mm !important;
+    }
+    .condition-text {
+            font-size: 3mm !important;
+    }
+}
+
+@media (min-width: 1200px) { 
+    body{
+        font-size: 3.3mm !important;
+    }
+        .makro-logo{
+        font-size: 4.8mm !important;
+    }
+    .condition-text {
+            font-size: 3mm !important;
+    }
+}
+
+@media (min-width: 1600px) { 
+    body{
+        font-size: 3.3mm !important;
+    }
+        .makro-logo{
+        font-size: 4.8mm !important;
+    }
+    .condition-text {
+            font-size: 3mm !important;
+    }
+}
+
+@media (min-width: 1900px) { 
+    body{
+        font-size: 3.3mm !important;
+    }
+        .makro-logo{
+        font-size: 4.8mm !important;
+    }
+    .condition-text {
+            font-size: 3mm !important;
+    }
+}*/

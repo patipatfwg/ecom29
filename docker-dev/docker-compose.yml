@@ -1,0 +1,26 @@
+makro_ecommerce_admin:
+  build: web/
+  tty: true
+  ports:
+    - "8054:80"
+  volumes:
+    - ../:/var/www/html
+  environment:
+    ENVIRONMENT: develop
+  links:
+    - makro-ecommerce-admin-redis:redis
+  # external_links:
+  #   - makro_banner_api:alpha-api-makro-banner.eggdigital.com
+  #   - makro_member_api:alpha-api-makro-member.eggdigital.com
+  #   - makro_category_api:alpha-api-makro-category.eggdigital.com
+  #   - makro_attribute_api:alpha-api-makro-attribute.eggdigital.com
+  #   - makro_product2_api:alpha-api-makro-product2.eggdigital.com
+  #   - makro_content_api:alpha-api-makro-content.eggdigital.com
+  #   - makro_product2_api:alpha-api-makro-product2.eggdigital.com
+  container_name: makro_ecommerce_admin
+
+makro-ecommerce-admin-redis:
+  image: redis:4.0.1
+  ports:
+    - "27154:6379"
+  container_name: makro-ecommerce-admin-redis

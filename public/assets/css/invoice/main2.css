@@ -1,0 +1,43 @@
+body {
+    color: #337cb5;
+}
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+.col-5 {
+    width: 41.66666667%;
+}
+
+.col-2 {
+    width: 16.66666667%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.right {
+    float: right;
+}
+
+.copy-box {
+    font-size: 2.7mm;
+    display: table;
+    width: 32mm;
+    height: 17mm;
+}
+
+.border-all {
+    border: 1px solid black;
+}
+
+.black {
+    color: black;
+}

@@ -1,0 +1,151 @@
+@media print {
+
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    @page {
+        size: A4; 
+        padding: 0mm;
+        margin: 0mm;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        zoom: 1;
+        background: transparent;
+        font-size: 2.5mm !important;
+        line-height: 5mm !important;
+    }
+
+    .font-read{
+        font-size: 2.8mm !important;
+    }
+
+    .makro-logo{
+        font-size: 3mm !important;
+    }
+
+    .condition-text {
+        font-size: 2.2mm !important;
+    }
+
+    .contract-us {
+        font-size: 2.8mm !important;
+    }
+
+    .invoice { 
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background: transparent;
+        box-shadow: unset;
+    }
+
+    .invoice-header {
+        height: 40mm;
+    }
+
+    .invoice-info{
+        height: 58mm;
+    }
+
+    .invoice-detail {
+        height: 176mm;
+    }
+
+    .invoice-line-break {
+        height: 5mm;
+    }
+
+    .invoice-header .copy-box{
+        width: 21mm;
+        height: 11mm;
+    }
+
+    .invoice-header .contract-us{
+        padding-top: 8mm;
+    }
+
+    .invoice-header .makro-logo{
+        padding-top: 6mm;
+    }
+
+    .invoice-header .sign{
+        padding-top: 3mm;
+    }
+
+    .invoice-name{
+        width: 65.1mm;
+        right: 13mm;
+    }
+
+    .text-center{
+        text-align: center;
+    }
+
+    .text-right{
+        text-align: right;
+    }
+
+    .text-left{
+        text-align: left;
+    }
+
+    .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{
+        float: left !important;
+    }
+    
+    .col-xs-1{
+        width: 8.33333333% !important;
+    }
+
+    .col-xs-2{
+        width: 16.66666667% !important;
+    }
+
+    .col-xs-3{
+        width: 25% !important;
+    }
+
+    .col-xs-4{
+        width: 33.33333333% !important;
+    }
+
+    .col-xs-5{
+        width: 41.66666667% !important;
+    }
+
+    .col-xs-6{
+        width: 50% !important;
+    }
+
+    .col-xs-7{
+        width: 58.33333333% !important;
+    }
+
+    .col-xs-8{
+        width: 66.66666667% !important;
+    }
+
+    .col-xs-9{
+        width: 75% !important;
+    }
+
+    .col-xs-10{
+        width: 83.33333333% !important;
+    }
+
+    .col-xs-11{
+        width: 91.66666667% !important;
+    }
+
+    .col-xs-12{
+        width: 100% !important;
+    }
+    .wrap-text {
+        white-space:nowrap;
+    }
+}

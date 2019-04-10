@@ -1,0 +1,231 @@
+.invoice{
+    width: 210mm;
+    height: 297mm;
+    padding: 5mm;
+    margin: 5mm auto;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* === Start:Layout Height === */
+.invoice-header {
+    height: 40mm;
+    /* height: 60mm; */
+}
+
+.invoice-info{
+    height: 58mm;
+    /* height: 87mm; */
+}
+
+.invoice-detail {
+    height: 176mm;
+    /* height: 264mm; */
+}
+
+.invoice-line-break {
+    height: 5mm;
+    /* height: 7.5mm; */
+}
+
+.invoice-info-top{
+    /* Parent Heigth 58mm*/
+    /* height: 45%; */
+    height: 26.1mm;
+}
+.invoice-info-bottom{
+    /* Parent Heigth 58mm*/
+    /* height: 55%; */
+    height: 31.9mm;
+}
+
+.invoice-detail-summary {
+    height: 43.18%;
+}
+
+.invoice-info-line{
+    height: 20%
+}
+
+.invoice-info-address2-line{
+    height: 20%
+}
+
+.invoice-info-address3-line{
+    height: 60%
+}
+
+.invoice-info-bottom-line{
+    height: 16.6%
+}
+
+.invoice-info-bottom-address-line{
+    height: 33.2%
+}
+
+.invoice-detail-header{
+    height: 6.25%;
+}
+
+.invoice-detail-list{
+    height: 50.57%;
+}
+
+.invoice-detail-list .item-lines{
+    height: 100%;
+}
+
+.invoice-detail-list .item-lines .line{
+    height: 5.56%;
+}
+
+.invoice-detail-list .item-groups{
+    height: 27.75%;
+}
+
+.invoice-detail-list .item-groups .line{
+    height: 20%;
+}
+
+.invoice-detail-summary .line{
+    height: 7.46%;
+}
+
+.invoice-detail-summary .remark{
+    height: 44.76%;
+}
+
+.invoice-detail-summary .remark .remark-cell{
+    height: 16.66%; 
+}
+
+.invoice-detail-summary .payment-cell{
+    height: 16.66%;
+}
+
+.invoice-detail-summary .signature{
+    height: 32.86%; 
+}
+/* === End:Layout Height === */
+
+/* === Start:Layout Width === */
+.detail-column-1{
+    width: 5.52%;
+}
+
+.detail-column-2{
+    width: 8.55%;
+}
+
+.detail-column-3{
+    width: 35.17%;
+}
+
+.detail-column-4{
+    width: 8.04%;
+}
+
+.detail-column-5{
+    width: 7.55%;
+}
+
+.detail-column-6{
+    width: 13.07%;
+}
+
+.detail-column-7{
+    width: 9.53%;
+}
+
+.detail-column-8{
+    width: 12.57%;
+}
+
+.detail-discount-column-header{
+    width: 14.07%;
+}
+
+.detail-discount-column-description{
+    width: 43.72%;
+}
+
+.invoice-info-left-side{
+    width: 49.24%;
+}
+
+.invoice-info-right-side{
+    width: 50.76%;
+}
+
+.invoice-detail-summary .amount-text{
+    width: 64.83%;
+}
+
+.invoice-detail-summary .total-label{
+    width: 22.6%; 
+}
+
+.invoice-detail-summary .total-amount{
+    width: 12.57%; 
+}
+
+.invoice-detail-summary .remark .remark-label{
+    width: 14.07%; 
+}
+
+.invoice-detail-summary .remark .condition{
+    width: 50.76%;
+}
+
+.invoice-detail-summary .remark .discount-label{
+    width: 22.6%; 
+}
+
+.invoice-detail-summary .remark .discount-amount{
+    width: 12.57%; 
+}
+
+.invoice-detail-summary .payment-type{
+    width: 29.65%; 
+}
+
+.invoice-detail-summary .payment-chanel{
+    width: 35.18%; 
+}
+
+.invoice-detail-summary .payment-unused{
+    width: 22.6%; 
+}
+
+.invoice-detail-summary .payment-total-amount{
+    width: 12.57%; 
+}
+
+.invoice-detail-summary .signature .sign-sender{
+    width: 29.65%;
+}
+
+.invoice-detail-summary .signature .sign-receiver{
+    width: 23.4%;
+}
+
+.invoice-detail-summary .signature .original-sign-sender{
+    width: 14.07%;
+}
+
+.invoice-detail-summary .signature .original-sign-receiver{
+    width: 15.58%;
+}
+
+.invoice-detail-summary .signature .sign-collector{
+    width: 23.4%;
+}
+
+.invoice-detail-summary .signature .sign-checker{
+    width: 23%;
+}
+
+.invoice-detail-summary .signature .sign-authorizer{
+    width: 23.95%;
+}
+/* === End:Layout Width === */

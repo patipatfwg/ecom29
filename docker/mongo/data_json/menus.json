@@ -1,0 +1,200 @@
+{ 
+    "_id" : ObjectId("58c0c4daac1eca002a23af52"), 
+    "icon" : "icon-bag", 
+    "name" : "Product", 
+    "url" : "product", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("58ae40771559170068322932"), 
+    "icon" : "icon-users4", 
+    "name" : "Member", 
+    "url" : "member", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("58c0c635ac1eca0050446a73"), 
+    "icon" : "icon-cog2", 
+    "name" : "Product Category List", 
+    "url" : "category", 
+    "parent" : "58c0c536ac1eca00437b82c2", 
+    "order" : NumberInt(9)
+}
+{ 
+    "_id" : ObjectId("58ae9518155917008912eb12"), 
+    "icon" : "icon-home", 
+    "name" : "Landing Page ", 
+    "url" : "dashboard", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("58c0c536ac1eca00437b82c2"), 
+    "icon" : "icon-list-numbered", 
+    "name" : "Category", 
+    "url" : "category", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(8)
+}
+{ 
+    "_id" : ObjectId("58c0df3bab1b9b004e0deba2"), 
+    "icon" : "icon-tree7", 
+    "name" : "Attribute", 
+    "url" : "attribute", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(4)
+}
+{ 
+    "_id" : ObjectId("58ddcd278e5cde824d6bd911"), 
+    "icon" : "icon-file-text2", 
+    "name" : "Content", 
+    "url" : "content", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(11)
+}
+{ 
+    "_id" : ObjectId("58eb44b2045b6d00287b2e82"), 
+    "icon" : "icon-user-tie", 
+    "name" : "User", 
+    "url" : "user", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(12)
+}
+{ 
+    "_id" : ObjectId("58eb4597045b6d002113d502"), 
+    "icon" : "icon-user-tie", 
+    "name" : "User List", 
+    "url" : "user", 
+    "parent" : "58eb44b2045b6d00287b2e82", 
+    "order" : NumberInt(13)
+}
+{ 
+    "_id" : ObjectId("58eb45ad045b6d000f1d1e52"), 
+    "icon" : "icon-cog2", 
+    "name" : "User Group List", 
+    "url" : "user_group", 
+    "parent" : "58eb44b2045b6d00287b2e82", 
+    "order" : NumberInt(14)
+}
+{ 
+    "_id" : ObjectId("58edadf089b9d005da63a322"), 
+    "icon" : "icon-price-tag3", 
+    "name" : "Brand", 
+    "url" : "brand", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("59019f8b0794d805271c5605"), 
+    "icon" : "icon-gift", 
+    "name" : "Campaign", 
+    "url" : "campaign", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("5934fed40794d833282bf998"), 
+    "icon" : "icon-cart5", 
+    "name" : "E-POS", 
+    "url" : "", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(15)
+}
+{ 
+    "_id" : ObjectId("5934ff270794d8333453fab8"), 
+    "icon" : "icon-cog2", 
+    "name" : "Return Order Search", 
+    "url" : "epos/return_order", 
+    "parent" : "5934fed40794d833282bf998", 
+    "order" : NumberInt(17)
+}
+{ 
+    "_id" : ObjectId("5934ff430794d82f9c03f188"), 
+    "icon" : "icon-cog2", 
+    "name" : "Invoice Search", 
+    "url" : "epos/invoice", 
+    "parent" : "5934fed40794d833282bf998", 
+    "order" : NumberInt(18)
+}
+{ 
+    "_id" : ObjectId("59392c9c0794d848ac5f5a79"), 
+    "icon" : "icon-image4", 
+    "name" : "Banner", 
+    "url" : "banner", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(6)
+}
+{ 
+    "_id" : ObjectId("59392cf00794d848993d4c89"), 
+    "icon" : "icon-menu3", 
+    "name" : "Group Menu", 
+    "url" : "group_menu", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(7)
+}
+{ 
+    "_id" : ObjectId("5939462a0794d8489501b46a"), 
+    "icon" : "icon-cog2", 
+    "name" : "Business Category List", 
+    "url" : "category_business", 
+    "parent" : "58c0c536ac1eca00437b82c2", 
+    "order" : NumberInt(10)
+}
+{ 
+    "_id" : ObjectId("594282300794d87f36738f59"), 
+    "icon" : "icon-drawer3", 
+    "name" : "Report", 
+    "url" : "report", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(19)
+}
+{ 
+    "_id" : ObjectId("5942828d0794d813355fc869"), 
+    "icon" : "icon-cog2", 
+    "name" : "Product Report", 
+    "url" : "report/product", 
+    "parent" : "594282300794d87f36738f59", 
+    "order" : NumberInt(23)
+}
+{ 
+    "_id" : ObjectId("594282a20794d87f5e5da0ea"), 
+    "icon" : "icon-cog2", 
+    "name" : "Order Report", 
+    "url" : "report/order", 
+    "parent" : "594282300794d87f36738f59", 
+    "order" : NumberInt(22)
+}
+{ 
+    "_id" : ObjectId("594282bd0794d87f344fa359"), 
+    "icon" : "icon-cog2", 
+    "name" : "Treasury Report", 
+    "url" : "report/treasury", 
+    "parent" : "594282300794d87f36738f59", 
+    "order" : NumberInt(24)
+}
+{ 
+    "_id" : ObjectId("594903be0794d870d55d2aed"), 
+    "icon" : "icon-credit-card2", 
+    "name" : "Payment Option", 
+    "url" : "config/payment_method", 
+    "parent" : NumberInt(0), 
+    "order" : NumberInt(25)
+}
+{ 
+    "_id" : ObjectId("5ab1cd930794d83f3039b907"), 
+    "icon" : "icon-cog2", 
+    "name" : "Replace Report", 
+    "url" : "report/replace", 
+    "parent" : "594282300794d87f36738f59", 
+    "order" : NumberInt(20)
+}
+{ 
+    "_id" : ObjectId("5ab1ce4f0794d83f244a7927"), 
+    "icon" : "icon-cog2", 
+    "name" : "Reprint Report", 
+    "url" : "report/order_print", 
+    "parent" : "594282300794d87f36738f59", 
+    "order" : NumberInt(21)
+}

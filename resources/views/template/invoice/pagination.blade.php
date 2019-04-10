@@ -1,0 +1,1 @@
+<div class="invoice-line-break black font-read text-right">หน้าที่ {{ $invoice['pagination']['current_page'] }} จาก {{ $invoice['pagination']['total_page'] }}</div>

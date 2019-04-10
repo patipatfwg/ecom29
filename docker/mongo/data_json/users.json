@@ -1,0 +1,26 @@
+{ 
+    "_id" : ObjectId("58f9f293de4a03002d61b442"), 
+    "username" : "admin", 
+    "password" : "$2y$10$ejN3wI1uc8H41nZsOcr3dOrvE.K.4GqIqFFjZtzMNf8aLFUT9DgtW", 
+    "name" : "Administrator", 
+    "surname" : "", 
+    "email" : "", 
+    "mobile" : "", 
+    "deleted_at" : "", 
+    "updated_at" : ISODate("2017-07-03T10:26:37.000+0000"), 
+    "created_at" : ISODate("2017-04-21T11:52:51.681+0000"), 
+    "makro_store_id" : ""
+}
+{ 
+    "_id" : ObjectId("595b79578947cd18f0799832"), 
+    "username" : "testCreate", 
+    "password" : "$2y$10$FwnTjYhqsVmtHzcLITjUQeIjXTRBzMdE4GpVYlGbxUoikRu39P5m2", 
+    "name" : "testCreate", 
+    "surname" : "testCreate", 
+    "email" : "", 
+    "mobile" : "", 
+    "makro_store_id" : "10", 
+    "deleted_at" : "", 
+    "updated_at" : ISODate("2017-07-04T11:47:59.000+0000"), 
+    "created_at" : ISODate("2017-07-04T11:17:43.000+0000")
+}

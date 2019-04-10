@@ -1,0 +1,17 @@
+body.login-container {
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to left, rgb(236, 233, 230), rgb(255, 255, 255));
+}
+.login-container .page-container .login-form {
+	width: 470px;
+}
+@media (max-width: 480px) {
+  .login-container .page-container .login-form,
+  .login-container .page-container .registration-form {
+    width: 100%;
+  }
+}
+.panel {
+  border-radius: 0px;
+}

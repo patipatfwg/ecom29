@@ -1,0 +1,23 @@
+.dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-menu > .dropdown-child .dropdown-menu, .dropdown-menu > .dropdown-child.dropdown-child-left .dropdown-menu {
+    position: relative;
+    left: 0;
+    right: 0;
+    float: none;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    min-width: 100%;
+    margin: 0;
+}
+
+.dropdown-menu > .dropdown-child .dropdown-menu > li > a{
+    padding-left: 32px;
+}
+
+.dropdown-menu > .dropdown-child .dropdown-menu > li > ul > li > a{
+    padding-left: 48px;
+}

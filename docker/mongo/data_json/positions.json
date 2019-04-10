@@ -1,0 +1,30 @@
+{ 
+    "_id" : ObjectId("594b683aa578594fd5e25bbf"), 
+    "type" : "position-banner", 
+    "imgUrl" : "/assets/images/banners/banner-positioning.png"
+}
+{ 
+    "_id" : ObjectId("5959f7861f4088607af6e608"), 
+    "type" : "position-brand", 
+    "imgUrl" : "/assets/images/brands/brand-placeholder.png"
+}
+{ 
+    "_id" : ObjectId("5959f7df1f4088607af6e60a"), 
+    "type" : "position-campaign", 
+    "imgUrl" : "/assets/images/campaign/campaign-placeholder.png"
+}
+{ 
+    "_id" : ObjectId("595a0afe1f4088607af6e60e"), 
+    "type" : "position-category1", 
+    "imgUrl" : "/assets/images/category/category1-placeholder.png"
+}
+{ 
+    "_id" : ObjectId("595a0b031f4088607af6e60f"), 
+    "type" : "position-category2", 
+    "imgUrl" : "/assets/images/category/category2-placeholder.png"
+}
+{ 
+    "_id" : ObjectId("595a0aef1f4088607af6e60d"), 
+    "type" : "position-category0", 
+    "imgUrl" : "/assets/images/category/category0-placeholder.png"
+}

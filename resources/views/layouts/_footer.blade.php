@@ -1,0 +1,1 @@
+<div class="footer text-muted">&copy; 2018. MAKRO</div>

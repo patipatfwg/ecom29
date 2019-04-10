@@ -1,0 +1,40 @@
+makro-ecommerce-admin-web:
+  build: web/
+  tty: true
+  ports:
+    - "8054:80"
+  volumes:
+    - ../:/var/www/html
+  links:
+    - makro-ecommerce-admin-mongo:mongo
+    - makro-ecommerce-admin-redis:redis
+  # external_links:
+    # - makro-member-api:makro-member-api.dev
+    # - makro_category_api:makro-category-api.dev
+    # - makro_attribute_api:makro-attribute-api.dev
+    # - makro-product2-api:makro-product2-api.dev
+    # - makro_content_api:makro-content-api.dev
+    # - makro_tag_api:makro-tag-api.dev
+    # - makro_permission_api:makro-permission-api.dev
+    # - makro_campaign_api:makro-campaign-api.dev
+    # - makro-product-int:makro-product-int.dev
+    # - makro_order_api:makro-order-api.dev
+    # - makro-config-ms-api:makro-config-ms-api.dev
+    # - makro-store-ms-api:makro-store-ms-api.dev
+    # - makro-coupon-api:makro-coupon-api.dev
+    
+  environment:
+    ENVIRONMENT: docker
+  container_name: makro-ecommerce-admin-web
+
+makro-ecommerce-admin-mongo:
+  build: mongo/
+  ports:
+    - "27054:27017"
+  container_name: makro-ecommerce-admin-mongo
+
+makro-ecommerce-admin-redis:
+  image: redis:4.0.1
+  ports:
+    - "27154:6379"
+  container_name: makro-ecommerce-admin-redis
